@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.Python
+.pytest_cache/
+.mypy_cache/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# SQLite temporary files
+data/*.db-journal
+data/*.db-shm
+data/*.db-wal
+
+# IDE and operating system files
+.DS_Store
+.idea/
+.vscode/
+.git-backup/
+*.swp
+*~
+
+# Test and coverage reports
+htmlcov/
+.coverage
+coverage.xml

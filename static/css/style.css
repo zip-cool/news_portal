@@ -1,0 +1,48 @@
+/* News Portal - Rich Client Styles */
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #f8f9fa;
+}
+
+#app-content {
+    flex: 1 0 auto;
+}
+
+footer {
+    margin-top: auto;
+}
+
+.news-card {
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.news-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.08) !important;
+}
+
+.hot-news {
+    border-left: 5px solid #dc3545 !important;
+}
+
+.badge-role-admin {
+    background-color: #dc3545;
+}
+
+.badge-role-user {
+    background-color: #0d6efd;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+/* Spinner overlay for async operations */
+.loading-spinner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem;
+}

@@ -1,0 +1,3 @@
+"""
+News Portal Application Package
+"""
